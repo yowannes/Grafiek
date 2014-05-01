@@ -22,7 +22,8 @@ namespace Grafiek
 		// Add some pie slices
 		PieItem segment01 = myPane.AddPieSlice( 15, 	Color.Navy, 		Color.White, 45f, 0.10, 	"Salt" );
 		PieItem segment02 = myPane.AddPieSlice( 20, 	Color.DarkRed, 		Color.White, 45f, 0.00, 	"Pepper" );
-		PieItem segment03 = myPane.AddPieSlice( 25, 	Color.LimeGreen, 	Color.White, 45f, 0.00, 	"Nutmeg " );
+		PieItem segment03 = myPane.AddPieSlice( 26, 	Color.LimeGreen, 	Color.White, 45f, 0.00, 	"Nutmeg " );
+		segment03.LabelDetail.FontSpec.FontColor = Color.Red;
 				
 		// Calculate the Axis Scale Ranges
 		myPane.AxisChange();
